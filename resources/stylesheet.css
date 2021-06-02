@@ -1,0 +1,10 @@
+html {
+    font-family: sans-serif;
+    background-color: lightsteelblue;
+}
+#home {
+    margin-top: 50px;
+}
+a {
+    color: blue;
+}
