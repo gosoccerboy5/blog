@@ -1,0 +1,11 @@
+const base = document.createElement("base");
+base.setAttribute("href", "https://gosoccerboy5.github.io/blog/");
+document.head.append(base);
+let icon = document.createElement("link");
+icon.setAttribute("rel", "icon");
+icon.setAttribute("href", "/resources/favicon.ico");
+document.head.append(icon);
+let stylesheet = document.createElement("link");
+stylesheet.setAttribute("rel", "stylesheet");
+stylesheet.setAttribute("href", "/resources/stylesheet.css");
+document.head.append(stylesheet);
